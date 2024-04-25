@@ -164,6 +164,8 @@ section .text .search_bar button {
     color: #fff;
     text-align: center;
     margin-bottom: 25px;
+    padding-top: 20px;
+    font-size: 40px;
 }
 
 .menu .m_box {
@@ -202,7 +204,7 @@ section .text .search_bar button {
 }
 
 .menu .m_box .m_cards .m_btn {
-    width: 130px;
+    width: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -211,7 +213,7 @@ section .text .search_bar button {
     color: #000;
     background: darkmagenta;
     padding: 8px 0;
-    font-size: 15px;
+    font-size: 10px;
     border-radius: 15px;
 }
 
