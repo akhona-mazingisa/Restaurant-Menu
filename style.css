@@ -97,64 +97,6 @@ section .text .search_bar button {
     border: 0;
 }
 
-.starter {
-    width: 100%;
-    height: auto;
-    padding: 50px 0;
-}
-
-.starter .img_box {
-    width: 100%;
-    height: 100px;
-    padding: 0 2%;
-    display: flex;
-    position: relative;
-}
-
-.starter .img_box .img_card {
-    width: 100px;
-    height: 100px;
-    display: flex;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-.starter .img_box .img_card .display_text {
-    width: 100px;
-    height: 100px;
-    background: rgba(0,0,0,0,3);
-    border-radius: 35px;
-    position: absolute;
-}
-
-.starter .img_box .img_card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
-.description_1 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-bottom: 20px;
-}
-
-.description_1 .d_text h3 {
-    color: #fff;
-    font-size: 45px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-bottom: 25px;
-}
-
-.description_1 .d_text .head_title {
-    margin-bottom: 15px;
-    color: #fff;
-}
-
 .menu {
     width: 100px;
     height: auto;
@@ -235,6 +177,7 @@ section .text .search_bar button {
     padding: 20px;
     object-fit: cover;
     object-position: center;
+    display: grid;
 }
 
 .container .m_cards .m_img h2 {
