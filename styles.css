@@ -115,6 +115,7 @@ section .text .search_bar button {
     justify-content: space-evenly;
     object-fit: cover;
     object-position: center;
+    border-radius: 50px;
 }
 
 .container h1 {
@@ -168,18 +169,18 @@ section .text .search_bar button {
 
 .content h1 {
     font-size: 64px;
-    color: #fff;
+    color:#fff;
     line-height: 80px;
 }
 
 .content h3 {
-    font-size: 24;
-    color: #fff;
+    font-size: 40;
+    color: darkmagenta;
     line-height: 1.5;
 }
 
 .content p {
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .content {
@@ -242,5 +243,7 @@ footer .social-links a {
 
 footer .social-links a:hover {
     color: white;
+    margin: 0 auto;
+    padding: 20px;
 }
 
